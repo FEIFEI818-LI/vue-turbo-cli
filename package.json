@@ -1,0 +1,29 @@
+{
+  "name": "vue-turbo-cli",
+  "version": "1.0.0",
+  "description": "vue-turbo-cli 工具",
+  "main": "index.js",
+  "bin": {
+    "vue-turbo-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "keywords": [
+    "cli工具，脚手架，高效率"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "4.1.2",
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.8.0",
+    "handlebars": "^4.7.8",
+    "inquirer": "^12.4.1",
+    "ora": "5.4.0",
+    "execa": "^9.5.2",
+    "fs-extra": "^11.3.0"
+  }
+}
