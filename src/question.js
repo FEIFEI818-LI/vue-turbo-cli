@@ -32,13 +32,13 @@ const create = [
     choices: [
       {
         key: "a",
-        name: "普通通用框架",
-        value: "https://github.com/FEIFEI818-LI/VueTurbo.git", // 前台通用框架的git地址
+        name: "admin",
+        value: "https://github.com/FEIFEI818-LI/VueTurbo.git",
       },
       {
         key: "b",
-        name: "中后台通用框架",
-        value: "https://github.com/FEIFEI818-LI/VueTurbo.git", // 中后台的通用框架git地址
+        name: "h5",
+        value: "https://github.com/FEIFEI818-LI/VueTurboH5.git",
       },
     ],
     filter: function (val) {

@@ -2,12 +2,20 @@
 
 const { program } = require("commander");
 const inquirer = require("inquirer");
-// import inquirer from 'inquirer';
 const packageData = require("../package.json");
 const question = require("../src/question");
 const myChalk = require("../utils/chalk");
 const createProject = require("../src/create");
 // const git = require("../src/git");
+
+const figlet = require("figlet");
+
+console.log('\r\n' + figlet.textSync('VueTurbo', {
+  horizontalLayout: 'default',
+  verticalLayout: 'default',
+  width: 100,
+  whitespaceBreak: true
+}));
 
 const { red } = myChalk;
 
